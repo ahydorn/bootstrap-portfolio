@@ -43,10 +43,18 @@ h1 {
 .portfolio-box {
     margin: 20px;
     background-color: #003249;
-    color: #9AD1D4;
+    color: #CCDBDC;
     border: 3px solid #CCDBDC
 }
 
 .port-pic {
     margin: 2px solid #003249;
+}
+
+.contact-form {
+    background-color: #CCDBDC;
+}
+
+.card {
+    background-color: #CCDBDC;
 }

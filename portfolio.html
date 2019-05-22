@@ -30,14 +30,15 @@
     </nav>
     <!-- Navbar end -->
     <!-- Begin main bootstrap container -->
-    <div class="container">
+    <div class="container col-md-12">
         <!-- Portfolio div -->
-        <div class="row">
-            <div class="portfolio-box mx-auto border border-light rounded col-sm-12">
+        <div class="row col-md-12">
+            <div class="heading-box mx-auto border border-light rounded col-sm-12">
                 <h1>Portfolio</h1>
             </div>
             <!-- Centered cards (I found that in order to prevent them all from being the same image, you can just link in slightly different sizes and they'll all randomize separately on each refresh) -->
-            <div class="card mx-auto" style="width: 18rem;">
+            <!-- Responsive resizing cards. 3 columns wide on medium screens, 12 columns wide on small screens-->
+            <div class="card mx-auto col-md-3 col-sm-12" style="width: 18rem;">
                 <img src="https://lorempixel.com/150/150" class="card-img-top" alt="portfolio pic">
                 <div class="card-body">
                     <h5 class="card-title">Achievement 1</h5>
@@ -46,7 +47,7 @@
                 </div>
 
             </div>
-            <div class="card mx-auto" style="width: 18rem;">
+            <div class="card mx-auto col-md-3 col-sm-12" style="width: 18rem;">
                 <img src="https://lorempixel.com/200/200" class="card-img-top" alt="portfolio pic">
                 <div class="card-body">
                     <h5 class="card-title">Another Achievement</h5>
@@ -55,7 +56,7 @@
                     <a href="#" class="btn btn-primary">See it</a>
                 </div>
             </div>
-            <div class="card mx-auto" style="width: 18rem;">
+            <div class="card mx-auto col-md-3 col-sm-12" style="width: 18rem;">
                 <img src="https://lorempixel.com/160/160" class="card-img-top" alt="portfolio pic">
                 <div class="card-body">
                     <h5 class="card-title">Cool Thing I Did</h5>

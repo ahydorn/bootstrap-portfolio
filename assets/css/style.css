@@ -59,8 +59,8 @@ h1 {
 
 /* Portfolio formatting */
 
-.portfolio-box {
-    margin: 20px;
+.heading-box {
+    margin-bottom: 20px;
     background-color: #003249;
     color: #CCDBDC;
     border: 3px solid #CCDBDC

@@ -1,5 +1,7 @@
+<!-- HTML declaration -->
 <!DOCTYPE html>
 <html lang="en">
+<!-- To be loaded before page is rendered -->
 
 <head>
     <meta charset="UTF-8">
@@ -9,8 +11,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+<!-- Main visible section of page begin -->
 
 <body>
+    <!-- Navbar begin -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Welcome</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,11 +28,15 @@
             </div>
         </div>
     </nav>
+    <!-- Navbar end -->
+    <!-- Begin main bootstrap container -->
     <div class="container">
+        <!-- Portfolio div -->
         <div class="row">
             <div class="portfolio-box mx-auto border border-light rounded col-sm-12">
                 <h1>Portfolio</h1>
             </div>
+            <!-- Centered cards (I found that in order to prevent them all from being the same image, you can just link in slightly different sizes and they'll all randomize separately on each refresh) -->
             <div class="card mx-auto" style="width: 18rem;">
                 <img src="https://lorempixel.com/150/150" class="card-img-top" alt="portfolio pic">
                 <div class="card-body">
@@ -46,7 +54,6 @@
                     </p>
                     <a href="#" class="btn btn-primary">See it</a>
                 </div>
-
             </div>
             <div class="card mx-auto" style="width: 18rem;">
                 <img src="https://lorempixel.com/160/160" class="card-img-top" alt="portfolio pic">
@@ -58,7 +65,8 @@
             </div>
         </div>
     </div>
-    <!-- <footer class="footer mt-auto py-3 w-100 text-center"> -->
+    <!-- Container end -->
+    <!-- The stickiest of footers -->
     <footer class="footer mt-auto py-3 text-center">
         <div class="container">
             <span class="text-muted">Copyright&copy;</span>

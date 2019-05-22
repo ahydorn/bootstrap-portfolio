@@ -1,21 +1,35 @@
+/* Formatting for sticky footer */
+
 html {
     position: relative;
     min-height: 100%;
 }
+
+
+/* Body dark honeycomb background */
 
 body {
     background-image: url('../images/dark-honeycomb.png');
     margin-bottom: 60px;
 }
 
+
+/* Header font class */
+
 h1 {
     font-family: arial;
 }
+
+
+/* Edge padding and background color for the about-me div class */
 
 .about-me-box {
     padding: 20px;
     background-color: #CCDBDC;
 }
+
+
+/* Keep picture on left side, separate it from other text, and give it a border */
 
 .me {
     float: left;
@@ -23,9 +37,15 @@ h1 {
     margin-right: 20px;
 }
 
+
+/* Bootstrap border class formatting */
+
 .border {
     border-width: 5px;
 }
+
+
+/* Jumbotron color and text formatting */
 
 .jumbotron {
     background-color: #003249;
@@ -36,15 +56,8 @@ h1 {
     border-top: 2px solid lightgray;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-    background: #003249;
-    border-top: solid 2px lightgray;
-    color: lightgray;
-}
+
+/* Portfolio formatting */
 
 .portfolio-box {
     margin: 20px;
@@ -53,14 +66,29 @@ h1 {
     border: 3px solid #CCDBDC
 }
 
-.port-pic {
-    margin: 2px solid #003249;
-}
+
+/* Change contact form background color to match scheme */
 
 .contact-form {
     background-color: #CCDBDC;
 }
 
+
+/* Change portfolio card color to match scheme */
+
 .card {
     background-color: #CCDBDC;
+}
+
+
+/* Sticky footer formatting */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #003249;
+    border-top: solid 2px lightgray;
+    color: lightgray;
 }
